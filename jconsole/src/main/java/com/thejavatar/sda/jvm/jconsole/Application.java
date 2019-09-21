@@ -17,8 +17,8 @@ public class Application {
 
             //System.out.printf( "%d) Time elapsed: %d ns %n", i, endTime - startTime );
 
-            long timeInMilliSeconds = TimeUnit.NANOSECONDS.toMicros( endTime - startTime );
-            System.out.printf( "%d) Time elapsed: %d us %n", i, timeInMilliSeconds );
+            long timeInMicroSeconds = TimeUnit.NANOSECONDS.toMicros( endTime - startTime );
+            System.out.printf( "%d) Time elapsed: %d us %n", i, timeInMicroSeconds );
 
         }
     }
