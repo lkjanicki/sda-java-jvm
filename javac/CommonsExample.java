@@ -1,3 +1,4 @@
+import org.apache.commons.lang3.text.WordUtils;
 import java.util.Scanner;
 
 public class CommonsExample {
@@ -15,7 +16,8 @@ public class CommonsExample {
     }
 
     private static String swapCase( String initialValue ) {
-        return initialValue;
+        return WordUtils.swapCase( initialValue );
     }
 
 }
+
