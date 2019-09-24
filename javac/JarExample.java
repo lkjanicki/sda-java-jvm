@@ -1,7 +1,6 @@
-import org.apache.commons.lang3.text.WordUtils;
 import java.util.Scanner;
 
-public class CommonsExample {
+public class JarExample {
 
     public static void main( String[] args ) {
 
@@ -16,7 +15,7 @@ public class CommonsExample {
     }
 
     private static String swapCase( String initialValue ) {
-        return WordUtils.capitalizeFully( initialValue );
+        return new StringUtilsModification().modify( new WordUtilsModification().modify( initialValue ) );
     }
 
 }
