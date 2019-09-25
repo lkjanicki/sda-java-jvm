@@ -1,5 +1,17 @@
 import java.util.Scanner;
 
+/**
+ * Application ask user for a string of characters. Next it transform the input given by the user in following fashion:
+ * <ol>
+ *     <li>capitalize all first letters in the text ({@link WordUtilsModification}),</li>
+ *     <li>reverses the order of all letters in the text ({@link StringUtilsModification}).</li>
+ * </ol>
+ *
+ * Finally it prints the text after both transformations to the user.
+ *
+ * @author lkjanicki
+ * @version 1.0.0
+ */
 public class JarExample {
 
     public static void main( String[] args ) {
