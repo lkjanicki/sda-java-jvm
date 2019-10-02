@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ *  Aplikacja pobiera od użytkownika teskt i następnie dokonuje na nim dwóch ({@link StringUtilsModification}, {@link WordUtilsModification}) modyfikacji.
+ *
+ * @author Lukasz Janicki
+ * @version 1.0.0
+ */
 public class JarExample {
 
     public static void main( String[] args ) {
